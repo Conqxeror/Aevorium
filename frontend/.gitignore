@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+.expo-shared/
+.env
+bundle-output
+.web/
+coverage/
+package-lock.json
+yarn.lock
+**/*.log
+android/
+ios/
+
+# VSCode
+.vscode/

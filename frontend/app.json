@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Aevorium Mobile",
+    "slug": "aevorium-mobile",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "48.0.0",
+    "extra": {
+      "AEVORIUM_API_URL": "http://localhost:8000"
+    }
+  }
+}
