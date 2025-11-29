@@ -1,0 +1,664 @@
+{
+    "cumulative_epsilon": 6038.0480911485465,
+    "round_history": [
+        {
+            "timestamp": "2025-11-27T22:31:31.789114",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 124.87257883058514,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4013281110674143
+            }
+        },
+        {
+            "timestamp": "2025-11-27T22:31:33.205932",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 249.74515766117028,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4072272013872862
+            }
+        },
+        {
+            "timestamp": "2025-11-27T22:34:33.453093",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 374.6177364917554,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.36741989478468895
+            }
+        },
+        {
+            "timestamp": "2025-11-27T22:37:54.852319",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 499.49031532234056,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.31436936371028423
+            }
+        },
+        {
+            "timestamp": "2025-11-27T22:46:06.837844",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 624.3628941529257,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4024754576385021
+            }
+        },
+        {
+            "timestamp": "2025-11-27T22:49:04.859138",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 749.2354729835108,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3782708216458559
+            }
+        },
+        {
+            "timestamp": "2025-11-27T22:52:17.118599",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 874.1080518140959,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3204539865255356
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:02:19.794730",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 998.980630644681,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4035805370658636
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:05:27.903816",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 1123.853209475266,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3798840865492821
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:08:40.846104",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 124.87257883058514,
+            "cumulative_epsilon": 1248.7257883058512,
+            "noise_multiplier": 0.3,
+            "epochs": 15,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.32694942131638527
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:35:21.822166",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 1397.6515537662997,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4159435071051121
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:35:24.679177",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 1546.5773192267482,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4117044620215893
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:42:30.924152",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 1695.5030846871966,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4017713274806738
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:47:17.649697",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 1844.428850147645,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.37612744979560375
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:51:39.439323",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 1993.3546156080936,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.328208863735199
+            }
+        },
+        {
+            "timestamp": "2025-11-27T23:56:42.240141",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 2142.280381068542,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.2849012780934572
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:17:50.514004",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 2291.2061465289903,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4090662728995085
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:22:59.864457",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 2440.131911989439,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.39883703365921974
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:29:50.728133",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 2589.0576774498873,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.37488603591918945
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:40:26.575055",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 2737.9834429103357,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3286639656871557
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:49:24.703015",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 2886.909208370784,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.40895530954003334
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:49:25.132611",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 3035.8349738312327,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4202354457229376
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:52:19.795726",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 3184.760739291681,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4030328281223774
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:55:34.277460",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 3333.6865047521296,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.37025446631014347
+            }
+        },
+        {
+            "timestamp": "2025-11-28T00:58:44.711162",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 148.92576546044845,
+            "cumulative_epsilon": 3482.612270212578,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3287166506052017
+            }
+        },
+        {
+            "timestamp": "2025-11-28T01:02:12.841011",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 36.01380380615859,
+            "cumulative_epsilon": 3518.6260740187367,
+            "noise_multiplier": 0.3,
+            "epochs": 1,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.43038615956902504
+            }
+        },
+        {
+            "timestamp": "2025-11-28T01:07:37.326031",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 3686.002149360395,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.40645502507686615
+            }
+        },
+        {
+            "timestamp": "2025-11-28T01:08:05.343545",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 3853.378224702053,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.41676267236471176
+            }
+        },
+        {
+            "timestamp": "2025-11-28T19:49:36.796517",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 4020.7543000437113,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4098151996731758
+            }
+        },
+        {
+            "timestamp": "2025-11-28T19:54:03.955842",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 4188.130375385369,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3951248787343502
+            }
+        },
+        {
+            "timestamp": "2025-11-28T19:58:39.543676",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 4355.506450727027,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3623306192457676
+            }
+        },
+        {
+            "timestamp": "2025-11-28T20:03:12.366595",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 4522.882526068685,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.317872516810894
+            }
+        },
+        {
+            "timestamp": "2025-11-28T20:07:34.889522",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 4690.2586014103435,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.26867175847291946
+            }
+        },
+        {
+            "timestamp": "2025-11-29T07:35:49.871406",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 4857.634676752002,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4204128198325634
+            }
+        },
+        {
+            "timestamp": "2025-11-29T08:01:27.750109",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 167.37607534165798,
+            "cumulative_epsilon": 5025.01075209366,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.41279449313879013
+            }
+        },
+        {
+            "timestamp": "2025-11-29T08:09:00.862674",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 186.94378845039998,
+            "cumulative_epsilon": 5211.9545405440595,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.128,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4090794287621975
+            }
+        },
+        {
+            "timestamp": "2025-11-29T08:15:18.109019",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 165.2187101208976,
+            "cumulative_epsilon": 5377.173250664957,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.41740040108561516
+            }
+        },
+        {
+            "timestamp": "2025-11-29T08:17:41.495390",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 165.2187101208976,
+            "cumulative_epsilon": 5542.391960785854,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.4040631763637066
+            }
+        },
+        {
+            "timestamp": "2025-11-29T08:21:27.296245",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 165.2187101208976,
+            "cumulative_epsilon": 5707.610670906752,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3639551792293787
+            }
+        },
+        {
+            "timestamp": "2025-11-29T08:24:03.330686",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 165.2187101208976,
+            "cumulative_epsilon": 5872.829381027649,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.3186363112181425
+            }
+        },
+        {
+            "timestamp": "2025-11-29T08:27:15.257805",
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon": 165.2187101208976,
+            "cumulative_epsilon": 6038.0480911485465,
+            "noise_multiplier": 0.3,
+            "epochs": 20,
+            "sample_rate": 0.064,
+            "delta": 1e-05,
+            "budget_remaining": null,
+            "budget_exhausted_pct": null,
+            "details": {
+                "final_loss": 0.28138025291264057
+            }
+        }
+    ],
+    "total_budget": 100.0,
+    "delta": 1e-05,
+    "last_updated": "2025-11-29T08:56:14.508674"
+}

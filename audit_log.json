@@ -1,0 +1,234 @@
+[
+    {
+        "id": "7300e799-b89f-4f29-8001-f93efc3eda95",
+        "timestamp": "2025-11-29T07:01:30.977274",
+        "event_type": "HISTORY_CLEARED",
+        "details": {
+            "cleared_audit_log": true,
+            "files_deleted": []
+        }
+    },
+    {
+        "id": "a9b4b3ae-6604-46c5-95ca-9fd0b2d80f3c",
+        "timestamp": "2025-11-29T07:35:49.974015",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 167.37607534165798,
+            "cumulative_epsilon": 4857.634676752002,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "e910e893-10cf-4600-bf90-a1f4d84cb566",
+        "timestamp": "2025-11-29T07:35:53.853971",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 1 to D:\\Projects\\Aevorium\\global_model_round_1.npz"
+    },
+    {
+        "id": "d2d80036-14b8-4915-8ea5-aeef0d84b1b6",
+        "timestamp": "2025-11-29T08:01:27.810710",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 167.37607534165798,
+            "cumulative_epsilon": 5025.01075209366,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "512238b9-9456-479d-9649-7c79b911d581",
+        "timestamp": "2025-11-29T08:01:30.894842",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 1 to D:\\Projects\\Aevorium\\global_model_round_1.npz"
+    },
+    {
+        "id": "377d3acf-0a50-4b6d-8228-5a1ae2923df7",
+        "timestamp": "2025-11-29T08:09:00.944164",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 186.94378845039998,
+            "cumulative_epsilon": 5211.9545405440595,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "eb9541c7-18af-4bab-a115-0c1b6a4a8f7c",
+        "timestamp": "2025-11-29T08:09:06.254132",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 1 to D:\\Projects\\Aevorium\\global_model_round_1.npz"
+    },
+    {
+        "id": "a173fc53-fc13-4760-bdbf-2b7aacec6778",
+        "timestamp": "2025-11-29T08:15:18.162799",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 5377.173250664957,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "99764340-37ec-4737-a5df-bf5b5b73aac7",
+        "timestamp": "2025-11-29T08:15:23.956247",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 5542.391960785854,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "ede437f1-6af5-4226-91e9-bf9eee670ad2",
+        "timestamp": "2025-11-29T08:15:26.538643",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 1 to D:\\Projects\\Aevorium\\global_model_round_1.npz"
+    },
+    {
+        "id": "8a9f5201-d58f-4b20-b3d6-78b9f806385e",
+        "timestamp": "2025-11-29T08:17:43.166640",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 5542.391960785854,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "0bae9fd3-6e07-493f-b2ee-70dc66577d4c",
+        "timestamp": "2025-11-29T08:17:51.696705",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 5707.610670906752,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "0919baac-76ef-40c9-a3a3-b6685a5b99ca",
+        "timestamp": "2025-11-29T08:17:55.087948",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 2 to D:\\Projects\\Aevorium\\global_model_round_2.npz"
+    },
+    {
+        "id": "b2dbf6e0-2281-4560-93b6-b1a3eb7c2f21",
+        "timestamp": "2025-11-29T08:21:10.675100",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 5872.829381027649,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "15687b5d-376d-4111-84b7-4b1bc14531a9",
+        "timestamp": "2025-11-29T08:21:27.310548",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 5707.610670906752,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "fc9748e1-edd2-4900-923d-5682a6b6f840",
+        "timestamp": "2025-11-29T08:21:31.185979",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 3 to D:\\Projects\\Aevorium\\global_model_round_3.npz"
+    },
+    {
+        "id": "0d287121-9aa6-478e-93ce-d776f8b2d6fa",
+        "timestamp": "2025-11-29T08:24:05.022378",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 5872.829381027649,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "af0d2f42-1540-434c-b193-dfedbb3d85ae",
+        "timestamp": "2025-11-29T08:24:17.502200",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 6038.0480911485465,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "33410d96-a88a-4087-b21c-642e440366a0",
+        "timestamp": "2025-11-29T08:24:20.823858",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 4 to D:\\Projects\\Aevorium\\global_model_round_4.npz"
+    },
+    {
+        "id": "c4d630eb-3f4f-42ef-bb0e-d1082a0c35e2",
+        "timestamp": "2025-11-29T08:26:53.263186",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 6203.266801269444,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "2f97bbd3-19b1-4e01-a8f5-244ec020fd46",
+        "timestamp": "2025-11-29T08:27:15.271600",
+        "event_type": "privacy_budget_update",
+        "details": {
+            "client_id": "0",
+            "round_num": 1,
+            "epsilon_spent": 165.2187101208976,
+            "cumulative_epsilon": 6038.0480911485465,
+            "budget_limit": null
+        }
+    },
+    {
+        "id": "7712b7a7-ba0e-4d48-8067-157231f9d6fe",
+        "timestamp": "2025-11-29T08:27:18.303756",
+        "event_type": "MODEL_SAVED",
+        "details": "Saved and encrypted global model round 5 to D:\\Projects\\Aevorium\\global_model_round_5.npz"
+    },
+    {
+        "id": "e9ad2a1f-5632-4f0f-b8ee-4c62c8776ce6",
+        "timestamp": "2025-11-29T08:54:36.955360",
+        "event_type": "DATA_GENERATION",
+        "details": {
+            "n_samples": 1000,
+            "output_file": "synthetic_data.csv",
+            "path": "synthetic_data.csv"
+        }
+    },
+    {
+        "id": "69e9a5dd-0fb0-4b31-9280-09a125d90df0",
+        "timestamp": "2025-11-29T08:56:14.510936",
+        "event_type": "PRIVACY_BUDGET_LIMIT_SET",
+        "details": {
+            "total_budget": 100.0,
+            "delta": 1e-05
+        }
+    }
+]

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aevorium Synthetic Data Quality Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2E86AB;
+            border-bottom: 3px solid #2E86AB;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #A23B72;
+            margin-top: 40px;
+        }
+        .summary-box {
+            background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .summary-box h2 {
+            color: white;
+            margin-top: 0;
+        }
+        .score {
+            font-size: 72px;
+            font-weight: bold;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .metric-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #2E86AB;
+        }
+        .metric-label {
+            color: #666;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: #2E86AB;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .good { color: #27ae60; }
+        .warning { color: #f39c12; }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧬 Aevorium Synthetic Data Quality Report</h1>
+    
+    <div class="summary-box">
+        <h2>Overall Quality Score</h2>
+        <div class="score">96.6%</div>
+        <p>Generated 1000 synthetic healthcare records</p>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">94.8%</div>
+            <div class="metric-label">Continuous Features</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">98.3%</div>
+            <div class="metric-label">Categorical Features</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">14</div>
+            <div class="metric-label">Total Features</div>
+        </div>
+    </div>
+    
+    <h2>📊 Quality Dashboard</h2>
+    <img src="quality_dashboard.png" alt="Quality Dashboard">
+    
+    <h2>📈 Feature Distributions</h2>
+    <img src="distribution_grid.png" alt="Distribution Grid">
+    
+    <h2>🔗 Correlation Analysis</h2>
+    <img src="correlation_heatmaps.png" alt="Correlation Heatmaps">
+    
+    <h2>📋 Categorical Features</h2>
+    <img src="categorical_comparison.png" alt="Categorical Comparison">
+    
+    <h2>🎯 Feature Radar</h2>
+    <img src="feature_radar.png" alt="Feature Radar">
+    
+    <h2>🔒 Privacy Budget</h2>
+    <img src="privacy_budget.png" alt="Privacy Budget">
+    
+    <h2>📝 Detailed Scores</h2>
+    <table>
+        <tr>
+            <th>Feature</th>
+            <th>Type</th>
+            <th>Quality Score</th>
+        </tr>
+        <tr><td>Age</td><td>Continuous</td><td class="good">99.5%</td></tr><tr><td>BMI</td><td>Continuous</td><td class="good">93.3%</td></tr><tr><td>BloodPressure</td><td>Continuous</td><td class="good">97.5%</td></tr><tr><td>Glucose</td><td>Continuous</td><td class="good">99.6%</td></tr><tr><td>EncounterCount</td><td>Continuous</td><td class="good">92.3%</td></tr><tr><td>MedicationCount</td><td>Continuous</td><td class="good">93.4%</td></tr><tr><td>ConditionCount</td><td>Continuous</td><td class="good">93.8%</td></tr><tr><td>TotalCost</td><td>Continuous</td><td class="warning">85.4%</td></tr><tr><td>ProcedureCount</td><td>Continuous</td><td class="good">98.2%</td></tr><tr><td>Gender</td><td>Categorical</td><td class="good">98.9%</td></tr><tr><td>Diagnosis</td><td>Categorical</td><td class="good">97.7%</td></tr><tr><td>EncounterType</td><td>Categorical</td><td class="good">97.7%</td></tr><tr><td>HasAllergies</td><td>Categorical</td><td class="good">98.8%</td></tr><tr><td>RiskLevel</td><td>Categorical</td><td class="good">98.6%</td></tr>
+    </table>
+    
+    <div class="footer">
+        <p>Generated by Aevorium Federated Learning Platform</p>
+        <p>2025-11-29 08:36:22</p>
+    </div>
+</body>
+</html>

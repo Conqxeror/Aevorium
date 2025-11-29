@@ -1,0 +1,48 @@
+version: '3.8'
+services:
+  server:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile.server
+    volumes:
+      - shared_data:/app/data
+    environment:
+      - STORAGE_DIR=/app/data
+    ports:
+      - "8080:8080"
+
+  node1:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile.node
+    depends_on:
+      - server
+    environment:
+      - STORAGE_DIR=/app/data
+      - SERVER_ADDRESS=server:8080
+
+  node2:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile.node
+    depends_on:
+      - server
+    environment:
+      - STORAGE_DIR=/app/data
+      - SERVER_ADDRESS=server:8080
+
+  api:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile.api
+    volumes:
+      - shared_data:/app/data
+    environment:
+      - STORAGE_DIR=/app/data
+    ports:
+      - "8000:8000"
+    depends_on:
+      - server
+
+volumes:
+  shared_data:

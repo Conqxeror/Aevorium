@@ -1,0 +1,129 @@
+{
+  "title": "Roadmap — build the federated synthetic-data platform",
+  "source_file": "Roadmap — build the federated synthetic-data platform (simple English) — PDF",
+  "one_line_summary": "Train a powerful generative model across many hospitals without moving patient data (via Federated Learning), then use it to create synthetic patient data.",
+  "main_building_blocks": [
+    "Local nodes (hospitals / labs) — keep real data and run local training",
+    "Federation server (coordinator) — sends model to nodes and aggregates updates",
+    "Generative model — diffusion model (or similar) trained via federated updates",
+    "Privacy layer — secure aggregation, differential privacy, optional encryption",
+    "Synthetic-data service / API — researchers request synthetic datasets",
+    "Audit & governance — logging, consent management, model cards, approval flows"
+  ],
+  "recommended_tech_stack": {
+    "federated_learning_frameworks": ["Flower", "TensorFlow Federated (TFF)", "PySyft"],
+    "ml_training_libs": ["PyTorch", "TensorFlow"],
+    "diffusion_model_libraries": ["OpenDiffusion", "guided-diffusion (PyTorch implementations)"],
+    "privacy_tools": ["OpenMined tools", "PySyft primitives", "Google DP libraries"],
+    "orchestration_infra": ["Kubernetes", "Docker", "AWS/GCP/Azure or on-prem servers"],
+    "apis_storage": ["FastAPI or Express for endpoints", "encrypted object storage (S3 or on-prem equivalent)"],
+    "monitoring_logging": ["Prometheus", "Grafana"],
+    "ci_cd": ["GitHub Actions", "GitLab CI"]
+  },
+  "step_by_step_implementation_plan": {
+    "phase_A_design_and_setup": [
+      {
+        "step": "Define exact data schemas",
+        "details": "Decide synthetic data types (EHR rows, genotype vectors, phenotype labels, timestamps) and agree common column names/formats across institutions"
+      },
+      {
+        "step": "Set up minimal PoC",
+        "details": "Pick 2–3 partner sites, give Dockerized node code, use toy dataset (synthetic initially) for tests"
+      },
+      {
+        "step": "Choose FL framework & basic protocol",
+        "details": "Start with FedAvg managed by Flower or TFF: server -> nodes train locally -> nodes return weight updates -> server averages"
+      },
+      {
+        "step": "Implement local training node",
+        "details": "Node receives model, trains on private data, returns updates. Ensure only parameters/gradients move (no raw data)"
+      },
+      {
+        "step": "Add secure aggregation",
+        "details": "Replace naive update collection so server sees only aggregated result. Tools: Flower + secure-aggregation plugin or PySyft"
+      },
+      {
+        "step": "Add Differential Privacy (DP)",
+        "details": "Add DP noise to updates/gradients. Tune privacy budget (ε) with partners and legal counsel"
+      },
+      {
+        "step": "Adapt generative model",
+        "details": "Use diffusion architecture adapted to tabular/genomic data (conditional diffusion for phenotype/genotype). Train via federated updates"
+      }
+    ],
+    "validation_and_post_train": [
+      "Generate synthetic samples and validate statistical similarity (marginals, correlations)",
+      "Run downstream utility tests: train model on synthetic, test on held-out real data",
+      "Run privacy checks: membership/attribute inference tests"
+    ],
+    "governance_and_api": [
+      "Add consent metadata and governance dashboard",
+      "Build synthetic-data API/dataset builder (e.g., request: \"1000 patients, age 40–60, disease X\") returning CSV/Parquet with provenance and model card"
+    ],
+    "security_monitoring_scaling": [
+      "Encrypt model artifacts at rest; TLS for transport; tamper-proof logs of versions and rounds",
+      "Move PoC -> multiple nodes using Kubernetes, autoscaling, optimize communication (compress updates, fewer rounds)"
+    ],
+    "regulatory_checks": [
+      "Engage legal/compliance early (HIPAA, GDPR, local laws)",
+      "Document that raw data never left site and privacy controls applied"
+    ]
+  },
+  "privacy_and_security_details": {
+    "secure_aggregation": "Server sees only sum of updates; cannot read individual hospital updates",
+    "differential_privacy": "Add calibrated noise to make single patient influence unknowable",
+    "encrypted_channels": "TLS for transport; encrypt models at rest",
+    "audit_logs_and_consent": "Record participants, model versions trained, approvals",
+    "adversarial_tests": "Run membership inference and model inversion tests"
+  },
+  "model_choices": {
+    "recommended": "Diffusion models — high-fidelity, diverse samples, adaptable to tabular/sequence data",
+    "alternatives": ["GANs — harder to train and less stable", "VAEs — less realistic detail"],
+    "genomic_note": "For genomic + phenotype data use conditional diffusion (condition on phenotype to produce genotype or vice versa)"
+  },
+  "evaluation": {
+    "statistical_tests": "Compare distributions, correlations, joint distributions",
+    "downstream_utility": "Train predictive models on synthetic, test on real holdout, measure performance gap",
+    "privacy_tests": "Membership inference, attribute inference, re-identification risk analysis",
+    "human_review": "Clinicians check samples for plausibility"
+  },
+  "risks_and_limitations": [
+    "Synthetic data can carry and amplify subtle biases from original data",
+    "High fidelity increases privacy risk; balance fidelity vs privacy (tune DP)",
+    "Federated training complexity: network issues, client heterogeneity, client dropouts"
+  ],
+  "costs_and_infra_notes": [
+    "Compute at nodes (GPUs recommended for diffusion models)",
+    "Communication bandwidth costs for federated rounds",
+    "Server & orchestration costs (Kubernetes, model storage)",
+    "Recommendation: start small (few sites, small model) and scale"
+  ],
+  "quick_prototype_path": [
+    "Single-machine test: train diffusion model on combined synthetic dataset to learn pipeline",
+    "Two-node FL PoC using Flower + PyTorch",
+    "Add simple secure aggregation and basic DP",
+    "Generate synthetic samples and run utility/privacy tests"
+  ],
+  "example_tools_and_repos": [
+    "Flower — federated learning orchestration",
+    "PyTorch — model training",
+    "OpenDiffusion / guided-diffusion — diffusion implementations",
+    "PySyft / OpenMined — privacy primitives and secure aggregation",
+    "Google DP libraries — differential privacy tools",
+    "Prometheus / Grafana — monitoring",
+    "Kubernetes + Docker — deployment"
+  ],
+  "governance_legal_checklist": [
+    "Data sharing agreements stating raw data never leaves site",
+    "Privacy impact assessment",
+    "IRB / ethics committee approvals",
+    "Ongoing risk assessment and regular audits"
+  ],
+  "next_actions_offered": [
+    "PoC plan: minimal code example (Flower + PyTorch) for 2 nodes",
+    "Diffusion model starter code adapted for tabular data",
+    "Architecture diagram + cloud infra plan (cost-aware)",
+    "Privacy configuration: DP noise budgets and secure aggregation setup"
+  ],
+  "notes": "This JSON mirrors the PDF contents in simple English and is ready to be used as a prompt for an AI agent."
+}
